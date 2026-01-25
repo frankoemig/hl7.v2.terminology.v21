@@ -1,0 +1,448 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimenSourceCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-specimenSourceCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenSourceCodes</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0070"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenSourceCodes",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.28"
+  } ],
+  "version": "1.0.0",
+  "name": "SpecimenSourceCodes",
+  "title": "Specimen Source Codes (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify sources for speciments for clinical testing.  These concepts are used in HL7 Version 2.x messaging in the OBR segment prior to version 2.7, and was replaced by the concepts in code system 2.16.840.1.133883.18.311 specimenType and code system 2.16.840.1.133883.18.312 specimenCollectionMethod as of version 2.5 and thereafter.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "replacedBy",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#replacedBy",
+    "description": "replacedBy",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "id": "239",
+    "code": "BLD",
+    "display": "Blood",
+    "definition": "Blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Blut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "550",
+    "code": "BON",
+    "display": "Bone",
+    "definition": "Bone",
+    "designation": [ {
+      "language": "de",
+      "value": "Knochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "244",
+    "code": "BRN",
+    "display": "Burn",
+    "definition": "Burn",
+    "designation": [ {
+      "language": "de",
+      "value": "Brandwunde"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "552",
+    "code": "CNJT",
+    "display": "Conjunctiva",
+    "definition": "Conjunctiva",
+    "designation": [ {
+      "language": "de",
+      "value": "Konjunktiven"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "241",
+    "code": "CSF",
+    "display": "Cerebral spinal fluid",
+    "definition": "Cerebral spinal fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Gehirn-/Rückenmarkflüssigkeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "553",
+    "code": "CVX",
+    "display": "Cervix",
+    "definition": "Cervix",
+    "designation": [ {
+      "language": "de",
+      "value": "Zervix"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "243",
+    "code": "EAR",
+    "display": "Ear",
+    "definition": "Ear",
+    "designation": [ {
+      "language": "de",
+      "value": "Ohr"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "555",
+    "code": "FIB",
+    "display": "Fibroblood",
+    "definition": "Fibroblood",
+    "designation": [ {
+      "language": "de",
+      "value": "Bindegewebsblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "556",
+    "code": "HAR",
+    "display": "Hair",
+    "definition": "Hair",
+    "designation": [ {
+      "language": "de",
+      "value": "Haar"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "549",
+    "code": "MN",
+    "display": "Amniotic Fluid",
+    "definition": "Amniotic Fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Fruchtwasser"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "252",
+    "code": "NOS",
+    "display": "Nose",
+    "definition": "Nose",
+    "designation": [ {
+      "language": "de",
+      "value": "Nasenabstrich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "558",
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "Diverse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "249",
+    "code": "PLAS",
+    "display": "Plasma",
+    "definition": "Plasma",
+    "designation": [ {
+      "language": "de",
+      "value": "Plasma"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "256",
+    "code": "PRT",
+    "display": "Peritoneal Fluid",
+    "definition": "Peritoneal Fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Flüssigkeit d. Pritoneums"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "554",
+    "code": "RBC",
+    "display": "Erythrocytes",
+    "definition": "Erythrocytes",
+    "designation": [ {
+      "language": "de",
+      "value": "Erythrozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "559",
+    "code": "SAL",
+    "display": "Saliva",
+    "definition": "Saliva",
+    "designation": [ {
+      "language": "de",
+      "value": "Speichel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "560",
+    "code": "SEM",
+    "display": "Seminal Fluid",
+    "definition": "Seminal fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Sperma"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "255",
+    "code": "SER",
+    "display": "Serum",
+    "definition": "Serum",
+    "designation": [ {
+      "language": "de",
+      "value": "Serum"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "561",
+    "code": "SKN",
+    "display": "Skin",
+    "definition": "Skin",
+    "designation": [ {
+      "language": "de",
+      "value": "Haut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "240",
+    "code": "SNV",
+    "display": "Synovial Fluid",
+    "definition": "Synovial Fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Gelenkflüssigeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "254",
+    "code": "STL",
+    "display": "Stool",
+    "definition": "Stool",
+    "designation": [ {
+      "language": "de",
+      "value": "Stuhl"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "562",
+    "code": "SWT",
+    "display": "Sweat",
+    "definition": "Sweat",
+    "designation": [ {
+      "language": "de",
+      "value": "Schweiß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "245",
+    "code": "THRT",
+    "display": "Throat",
+    "definition": "Throat",
+    "designation": [ {
+      "language": "de",
+      "value": "Rachanbstrich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "563",
+    "code": "TIS",
+    "display": "Tissue",
+    "definition": "Tissue",
+    "designation": [ {
+      "language": "de",
+      "value": "Gewebe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "564",
+    "code": "UMB",
+    "display": "Umbilical Blood",
+    "definition": "Umbilical Blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Nabelblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "253",
+    "code": "UR",
+    "display": "Urine",
+    "definition": "Urine",
+    "designation": [ {
+      "language": "de",
+      "value": "Urin"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "565",
+    "code": "URTH",
+    "display": "Urethra",
+    "definition": "Urethra",
+    "designation": [ {
+      "language": "de",
+      "value": "Urethra"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "557",
+    "code": "WBC",
+    "display": "Leukocytes",
+    "definition": "Leukocytes",
+    "designation": [ {
+      "language": "de",
+      "value": "Leukozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "242",
+    "code": "WND",
+    "display": "Wound",
+    "definition": "Wound",
+    "designation": [ {
+      "language": "de",
+      "value": "Wundabstrich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

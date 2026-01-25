@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ethnicGroup",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-ethnicGroup.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/ethnicGroup</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0005"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/ethnicGroup",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.6"
+  } ],
+  "version": "1.0.0",
+  "name": "EthnicGroup",
+  "title": "ETHNIC GROUP (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the patient's race for administrative transactions.  Note replaced with the CDC code system 2.16.840.1.113883.6.238 as of version 2.2.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "34",
+    "code": "B",
+    "display": "Black",
+    "definition": "Black",
+    "designation": [ {
+      "language": "de",
+      "value": "Schwarzer"
+    } ]
+  }, {
+    "id": "32",
+    "code": "C",
+    "display": "Caucasian",
+    "definition": "Caucasian",
+    "designation": [ {
+      "language": "de",
+      "value": "Kaukasier"
+    } ]
+  }, {
+    "id": "35",
+    "code": "H",
+    "display": "Hispanic",
+    "definition": "Hispanic",
+    "designation": [ {
+      "language": "de",
+      "value": "Hispanier"
+    } ]
+  }, {
+    "id": "36",
+    "code": "R",
+    "display": "Oriental",
+    "definition": "Oriental",
+    "designation": [ {
+      "language": "de",
+      "value": "Orientale"
+    } ]
+  } ]
+}

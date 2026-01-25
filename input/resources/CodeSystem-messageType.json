@@ -1,0 +1,372 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "messageType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-messageType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0076"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.30"
+  } ],
+  "version": "1.0.0",
+  "name": "MessageType",
+  "title": "Message Type (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify message types.  Used in HL7 Version 2.x messaging in the MSH segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "chapter",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#chapter",
+    "description": "chapter",
+    "type": "string"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSevent"
+    } ],
+    "code": "event",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#event",
+    "description": "event",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "id": "581",
+    "code": "ACK",
+    "display": "General Acknowledgment       CNT       II",
+    "definition": "General Acknowledgment       CNT       II",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A01"
+    }, {
+      "code": "event",
+      "valueCode": "A02"
+    }, {
+      "code": "event",
+      "valueCode": "A03"
+    }, {
+      "code": "event",
+      "valueCode": "A04"
+    }, {
+      "code": "event",
+      "valueCode": "A05"
+    }, {
+      "code": "event",
+      "valueCode": "A06"
+    }, {
+      "code": "event",
+      "valueCode": "A07"
+    }, {
+      "code": "event",
+      "valueCode": "A08"
+    }, {
+      "code": "event",
+      "valueCode": "A09"
+    }, {
+      "code": "event",
+      "valueCode": "A10"
+    }, {
+      "code": "event",
+      "valueCode": "A11"
+    }, {
+      "code": "event",
+      "valueCode": "A12"
+    }, {
+      "code": "event",
+      "valueCode": "A13"
+    }, {
+      "code": "event",
+      "valueCode": "A14"
+    }, {
+      "code": "event",
+      "valueCode": "A15"
+    }, {
+      "code": "event",
+      "valueCode": "A16"
+    }, {
+      "code": "event",
+      "valueCode": "A17"
+    }, {
+      "code": "event",
+      "valueCode": "A18"
+    }, {
+      "code": "event",
+      "valueCode": "A20"
+    }, {
+      "code": "event",
+      "valueCode": "A21"
+    }, {
+      "code": "event",
+      "valueCode": "A22"
+    }, {
+      "code": "event",
+      "valueCode": "A23"
+    }, {
+      "code": "event",
+      "valueCode": "A24"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    }, {
+      "code": "event",
+      "valueCode": "P03"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    }, {
+      "code": "event",
+      "valueCode": "R03"
+    } ]
+  }, {
+    "code": "ADR",
+    "display": "ADT response",
+    "definition": "ADT response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Aufnahme / Verlegung / Entlassung von Patienten"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2024-08-12"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "ADT",
+    "display": "ADT message",
+    "definition": "ADT message",
+    "designation": [ {
+      "language": "de",
+      "value": "Aufnahme / Entlassung / Verlegung"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2024-08-12"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "584",
+    "code": "BAR",
+    "display": "Add/change billing account   BLN       VI",
+    "definition": "Add/change billing account   BLN       VI",
+    "designation": [ {
+      "language": "de",
+      "value": "Rechnungsänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    } ]
+  }, {
+    "id": "586",
+    "code": "DSR",
+    "display": "Display response             QRY       V",
+    "definition": "Display response             QRY       V",
+    "designation": [ {
+      "language": "de",
+      "value": "angezeigte Antwort"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P04"
+    }, {
+      "code": "event",
+      "valueCode": "Q01"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    } ]
+  }, {
+    "id": "587",
+    "code": "MCF",
+    "display": "Delayed acknowledgment       CNT       II",
+    "definition": "Delayed acknowledgment       CNT       II",
+    "designation": [ {
+      "language": "de",
+      "value": "verzögerte Empfangsbestätigung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q02"
+    } ]
+  }, {
+    "id": "589",
+    "code": "ORF",
+    "display": "Observ. Result/record resp.  ANR       VII",
+    "definition": "Observ. Result/record resp.  ANR       VII",
+    "designation": [ {
+      "language": "de",
+      "value": "Untersuchungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R02"
+    } ]
+  }, {
+    "id": "590",
+    "code": "ORM",
+    "display": "Order                        ORD       IV",
+    "definition": "Order                        ORD       IV",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "id": "591",
+    "code": "ORR",
+    "display": "Order response message       ORD       IV",
+    "definition": "Order response message       ORD       IV",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsantwort"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "id": "592",
+    "code": "ORU",
+    "display": "Observ. result/unsolicited   ANR       VII",
+    "definition": "Observ. result/unsolicited   ANR       VII",
+    "designation": [ {
+      "language": "de",
+      "value": "nicht angeforderte Beobachtungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    }, {
+      "code": "event",
+      "valueCode": "R03"
+    } ]
+  }, {
+    "id": "593",
+    "code": "OSQ",
+    "display": "Order status query           ORD       IV",
+    "definition": "Order status query           ORD       IV",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage nach Auftragsstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "595",
+    "code": "UDM",
+    "display": "Unsolicited display          QRY       V",
+    "definition": "Unsolicited display          QRY       V",
+    "designation": [ {
+      "language": "de",
+      "value": "nicht angeforderte Anzeige"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    } ]
+  } ]
+}

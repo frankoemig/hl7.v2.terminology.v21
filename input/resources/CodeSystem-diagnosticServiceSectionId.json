@@ -1,0 +1,417 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnosticServiceSectionId",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-diagnosticServiceSectionId.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/diagnosticServiceSectionId</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0074"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/diagnosticServiceSectionId",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.29"
+  } ],
+  "version": "1.0.0",
+  "name": "DiagnosticServiceSectionId",
+  "title": "Diagnostic Service Section ID (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "470",
+    "code": "BG",
+    "display": "Blood Gases",
+    "definition": "Blood Gases",
+    "designation": [ {
+      "language": "de",
+      "value": "Blutgase"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "476",
+    "code": "CH",
+    "display": "Chemistry",
+    "definition": "Chemistry",
+    "designation": [ {
+      "language": "de",
+      "value": "klinische Chemie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "478",
+    "code": "CP",
+    "display": "Cytopathology",
+    "definition": "Cytopathology",
+    "designation": [ {
+      "language": "de",
+      "value": "Zellpathologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "475",
+    "code": "CT",
+    "display": "CAT Scan",
+    "definition": "CAT Scan",
+    "designation": [ {
+      "language": "de",
+      "value": "Computertomographie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "472",
+    "code": "CUS",
+    "display": "Cardiac Ultrasound",
+    "definition": "Cardiac Ultrasound",
+    "designation": [ {
+      "language": "de",
+      "value": "kardiologische Ultraschalluntersuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "479",
+    "code": "EC",
+    "display": "Electrocardiac",
+    "definition": "Electrocardiac (e.g., EKG, EEC, Holter)",
+    "designation": [ {
+      "language": "de",
+      "value": "Elektrokardiographie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "482",
+    "code": "HM",
+    "display": "Hematology",
+    "definition": "Hematology",
+    "designation": [ {
+      "language": "de",
+      "value": "Hämatologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "566",
+    "code": "IMM",
+    "display": "Immunology",
+    "definition": "Immunology",
+    "designation": [ {
+      "language": "de",
+      "value": "Immunologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "483",
+    "code": "MB",
+    "display": "Microbiology",
+    "definition": "Microbiology",
+    "designation": [ {
+      "language": "de",
+      "value": "Mikrobiologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "568",
+    "code": "MCB",
+    "display": "Mycobacteriology",
+    "definition": "Mycobacteriology",
+    "designation": [ {
+      "language": "de",
+      "value": "Mykobakteriologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "567",
+    "code": "MYC",
+    "display": "Mycology",
+    "definition": "Mycology",
+    "designation": [ {
+      "language": "de",
+      "value": "Mykologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "486",
+    "code": "NMR",
+    "display": "Nuclear Magnetic Resonance",
+    "definition": "Nuclear Magnetic Resonance",
+    "designation": [ {
+      "language": "de",
+      "value": "Magnetresonanztomographie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "485",
+    "code": "NMS",
+    "display": "Nuclear Medicine Scan",
+    "definition": "Nuclear Medicine Scan",
+    "designation": [ {
+      "language": "de",
+      "value": "Szintigramm"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "487",
+    "code": "NRS",
+    "display": "Nursing Service Measures",
+    "definition": "Nursing Service Measures",
+    "designation": [ {
+      "language": "de",
+      "value": "Pflegemaßnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "606",
+    "code": "OT",
+    "display": "Occupational Therapy",
+    "definition": "Occupational Therapy",
+    "designation": [ {
+      "language": "de",
+      "value": "Beschäftigungstherapie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "569",
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "andere"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "488",
+    "code": "OUS",
+    "display": "OB Ultrasound",
+    "definition": "OB Ultrasound",
+    "designation": [ {
+      "language": "de",
+      "value": "geburtshilfl. Ultraschalluntersuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "489",
+    "code": "PHR",
+    "display": "Pharmacy",
+    "definition": "Pharmacy",
+    "designation": [ {
+      "language": "de",
+      "value": "Apotheke"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "605",
+    "code": "PT",
+    "display": "Physical Therapy",
+    "definition": "Physical Therapy",
+    "designation": [ {
+      "language": "de",
+      "value": "physiklische Therapie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "608",
+    "code": "RC",
+    "display": "Respiratory Care",
+    "definition": "Respiratory Care",
+    "designation": [ {
+      "language": "de",
+      "value": "Atmungstherapie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "607",
+    "code": "RT",
+    "display": "Radiation Therapy",
+    "definition": "Radiation Therapy",
+    "designation": [ {
+      "language": "de",
+      "value": "Strahlentherapie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "493",
+    "code": "RUS",
+    "display": "Radiology Ultrasound",
+    "definition": "Radiology Ultrasound",
+    "designation": [ {
+      "language": "de",
+      "value": "radiolog. Ultraschalluntersuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "495",
+    "code": "SP",
+    "display": "Surgical Pathology",
+    "definition": "Surgical Pathology",
+    "designation": [ {
+      "language": "de",
+      "value": "operative Pathologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "494",
+    "code": "SR",
+    "display": "Serology",
+    "definition": "Serology",
+    "designation": [ {
+      "language": "de",
+      "value": "Serologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "496",
+    "code": "TX",
+    "display": "Toxicology",
+    "definition": "Toxicology",
+    "designation": [ {
+      "language": "de",
+      "value": "Toxikologie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "497",
+    "code": "VUS",
+    "display": "Vascular Ultrasound",
+    "definition": "Vascular Ultrasound",
+    "designation": [ {
+      "language": "de",
+      "value": "Ultraschalluntersuchung der Gefäße"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "477",
+    "code": "XRC",
+    "display": "Cineradiography",
+    "definition": "Cineradiography",
+    "designation": [ {
+      "language": "de",
+      "value": "Röntgenkinematographie"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

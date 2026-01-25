@@ -1,0 +1,422 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "orderControlCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-orderControlCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0119"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.48"
+  } ],
+  "version": "1.0.0",
+  "name": "OrderControlCodes",
+  "title": "Order Control Codes (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which are used to determine the function of the order segment.  Depending on the message, the action specified by one of these control codes may refer to an order or an individual service.  Used in Version 2.x messaging of orders in the ORC segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "application",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#application",
+    "description": "application",
+    "type": "string"
+  } ],
+  "concept": [ {
+    "id": "420",
+    "code": "CA",
+    "display": "Cancel order request",
+    "definition": "Cancel order request",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung Auftrag zu stornieren"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "444",
+    "code": "CH",
+    "display": "Child order",
+    "definition": "Child order",
+    "designation": [ {
+      "language": "de",
+      "value": "untergeordneter Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "456",
+    "code": "CN",
+    "display": "Combined result",
+    "definition": "Combined result",
+    "designation": [ {
+      "language": "de",
+      "value": "kumulatives Ergebnis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "426",
+    "code": "DC",
+    "display": "Discontinue order request",
+    "definition": "Discontinue order request",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "450",
+    "code": "DE",
+    "display": "Data Errors",
+    "definition": "Data Errors",
+    "designation": [ {
+      "language": "de",
+      "value": "Datenfehler"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "428",
+    "code": "DR",
+    "display": "Discontinued as requested",
+    "definition": "Discontinued as requested",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag gemäß Anforderung abgebrochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "430",
+    "code": "HD",
+    "display": "Hold order request",
+    "definition": "Hold order request",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung Auftrag zu unterbrechen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "432",
+    "code": "HR",
+    "display": "On hold as requested",
+    "definition": "On hold as requested",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag gemäß Anforderung unterbrochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "455",
+    "code": "NA",
+    "display": "Number assigned            T",
+    "definition": "Number assigned            T",
+    "designation": [ {
+      "language": "de",
+      "value": "Nummer zugewiesen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "418",
+    "code": "NW",
+    "display": "New order                  T",
+    "definition": "New order                  T",
+    "designation": [ {
+      "language": "de",
+      "value": "Neuer Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "427",
+    "code": "OD",
+    "display": "Order discontinued",
+    "definition": "Order discontinued",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag abgebrochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "419",
+    "code": "OK",
+    "display": "Order accepted and OK",
+    "definition": "Order accepted and OK",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag akzeptiert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "436",
+    "code": "OR",
+    "display": "Released as requested",
+    "definition": "Released as requested",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag gemäß Anforderung fortgesetzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "443",
+    "code": "PA",
+    "display": "Parent order",
+    "definition": "Parent order",
+    "designation": [ {
+      "language": "de",
+      "value": "übergeordneter Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "451",
+    "code": "RE",
+    "display": "Observations to follow",
+    "definition": "Observations to follow",
+    "designation": [ {
+      "language": "de",
+      "value": "Untersuchungsergebnisse folgen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "442",
+    "code": "RO",
+    "display": "Replacement order",
+    "definition": "Replacement order",
+    "designation": [ {
+      "language": "de",
+      "value": "Ersatzauftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "438",
+    "code": "RP",
+    "display": "Order replace request",
+    "definition": "Order replace request",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung Auftrag zu ersetzen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "452",
+    "code": "RR",
+    "display": "Request received",
+    "definition": "Request received",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung erhalten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "439",
+    "code": "RU",
+    "display": "Replaced unsolicited",
+    "definition": "Replaced unsolicited",
+    "designation": [ {
+      "language": "de",
+      "value": "unaufgefordert ersetzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "454",
+    "code": "SN",
+    "display": "Send filler number            F         I",
+    "definition": "Send filler number            F         I",
+    "designation": [ {
+      "language": "de",
+      "value": "sende Erbringer-ID"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "453",
+    "code": "SS",
+    "display": "Send order status request",
+    "definition": "Send order status request",
+    "designation": [ {
+      "language": "de",
+      "value": "sende Auftragsstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "429",
+    "code": "UD",
+    "display": "Unable to discontinue",
+    "definition": "Unable to discontinue",
+    "designation": [ {
+      "language": "de",
+      "value": "Abbrechen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "435",
+    "code": "UH",
+    "display": "Unable to put on hold",
+    "definition": "Unable to put on hold",
+    "designation": [ {
+      "language": "de",
+      "value": "unterbrechen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "437",
+    "code": "UR",
+    "display": "Unable to release",
+    "definition": "Unable to release",
+    "designation": [ {
+      "language": "de",
+      "value": "Fortsetzen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "447",
+    "code": "UX",
+    "display": "Unable to change",
+    "definition": "Unable to change",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "448",
+    "code": "XR",
+    "display": "Changed as requested",
+    "definition": "Changed as requested",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag gemäß Anforderung geändert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "446",
+    "code": "XX",
+    "display": "Order changed, unsolicited",
+    "definition": "Order changed, unsolicited",
+    "designation": [ {
+      "language": "de",
+      "value": "unangeforderte Auftragsänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

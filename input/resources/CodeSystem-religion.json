@@ -1,0 +1,156 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "religion",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-religion.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/religion</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0006"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/religion",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.7"
+  } ],
+  "version": "1.0.0",
+  "name": "Religion",
+  "title": "Religion (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying a person's religion.  Used in HL7 Version 2.x messaging in the PID segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSreligion"
+    } ],
+    "code": "parent",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#parent",
+    "description": "parent",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "id": "47",
+    "code": "A",
+    "display": "Atheist",
+    "definition": "Atheist",
+    "designation": [ {
+      "language": "de",
+      "value": "Atheist"
+    } ]
+  }, {
+    "id": "39",
+    "code": "B",
+    "display": "Baptist",
+    "definition": "Baptist",
+    "designation": [ {
+      "language": "de",
+      "value": "Baptist"
+    } ]
+  }, {
+    "id": "40",
+    "code": "C",
+    "display": "Catholic",
+    "definition": "Catholic",
+    "designation": [ {
+      "language": "de",
+      "value": "Katholik"
+    } ]
+  }, {
+    "id": "43",
+    "code": "E",
+    "display": "Episcopalian",
+    "definition": "Episcopalian",
+    "designation": [ {
+      "language": "de",
+      "value": "Episkopale"
+    } ]
+  }, {
+    "id": "44",
+    "code": "J",
+    "display": "Judaism",
+    "definition": "Judaism",
+    "designation": [ {
+      "language": "de",
+      "value": "Jude"
+    } ]
+  }, {
+    "id": "38",
+    "code": "L",
+    "display": "Lutheran",
+    "definition": "Lutheran",
+    "designation": [ {
+      "language": "de",
+      "value": "Lutheraner"
+    } ]
+  }, {
+    "id": "41",
+    "code": "M",
+    "display": "Church of Latter Day Saints (Mormon)",
+    "definition": "Church of Latter Day Saints (Mormon)",
+    "designation": [ {
+      "language": "de",
+      "value": "Mormone"
+    } ]
+  }, {
+    "id": "45",
+    "code": "N",
+    "display": "Hindu",
+    "definition": "Hindu",
+    "designation": [ {
+      "language": "de",
+      "value": "Hinduist"
+    } ]
+  }, {
+    "id": "37",
+    "code": "P",
+    "display": "Protestant",
+    "definition": "Protestant",
+    "designation": [ {
+      "language": "de",
+      "value": "Protestant"
+    } ]
+  } ]
+}

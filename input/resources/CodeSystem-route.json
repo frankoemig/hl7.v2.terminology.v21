@@ -1,0 +1,318 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "route",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-route.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/route</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0033"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/route",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.16"
+  } ],
+  "version": "1.0.0",
+  "name": "Route",
+  "title": "ROUTE (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts that indicate a means of administrating a medication dose.  Used in HL7 Version 2 messaging in the RX1 segment (which was withdrawn after version 2.2). As of HL7 version 2.3, it was replaced by 2.16.840.1.113883.18.80 routeOfAdministration and 2.16.840.1.113883.18.83 administrationMethod.  Used in the RX1 segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "131",
+    "code": "AP",
+    "display": "Apply externally",
+    "definition": "Apply externally",
+    "designation": [ {
+      "language": "de",
+      "value": "externe Applikatione"
+    } ]
+  }, {
+    "id": "132",
+    "code": "CH",
+    "display": "Chew",
+    "definition": "Chew",
+    "designation": [ {
+      "language": "de",
+      "value": "Kautablette"
+    } ]
+  }, {
+    "id": "134",
+    "code": "DU",
+    "display": "Dust",
+    "definition": "Dust",
+    "designation": [ {
+      "language": "de",
+      "value": "Puder"
+    } ]
+  }, {
+    "id": "135",
+    "code": "EA",
+    "display": "Ear",
+    "definition": "Ear",
+    "designation": [ {
+      "language": "de",
+      "value": "Ohr"
+    } ]
+  }, {
+    "id": "136",
+    "code": "EY",
+    "display": "Eye",
+    "definition": "Eye",
+    "designation": [ {
+      "language": "de",
+      "value": "Auge"
+    } ]
+  }, {
+    "id": "137",
+    "code": "IA",
+    "display": "Intro-arterial",
+    "definition": "Intro-arterial",
+    "designation": [ {
+      "language": "de",
+      "value": "intraarteriell"
+    } ]
+  }, {
+    "id": "139",
+    "code": "ID",
+    "display": "Intra-dermal",
+    "definition": "Intra-dermal",
+    "designation": [ {
+      "language": "de",
+      "value": "intradermal"
+    } ]
+  }, {
+    "id": "140",
+    "code": "IF",
+    "display": "Infiltrate",
+    "definition": "Infiltrate",
+    "designation": [ {
+      "language": "de",
+      "value": "infiltrieren"
+    } ]
+  }, {
+    "id": "141",
+    "code": "IH",
+    "display": "Inhalation",
+    "definition": "Inhalation",
+    "designation": [ {
+      "language": "de",
+      "value": "Inhalation"
+    } ]
+  }, {
+    "id": "142",
+    "code": "IM",
+    "display": "Intra-muscular",
+    "definition": "Intra-muscular",
+    "designation": [ {
+      "language": "de",
+      "value": "intramuskulär"
+    } ]
+  }, {
+    "id": "143",
+    "code": "IN",
+    "display": "Intra-nasal",
+    "definition": "Intra-nasal",
+    "designation": [ {
+      "language": "de",
+      "value": "intranasal"
+    } ]
+  }, {
+    "id": "144",
+    "code": "IR",
+    "display": "Irrigate",
+    "definition": "Irrigate",
+    "designation": [ {
+      "language": "de",
+      "value": "Einlauf"
+    } ]
+  }, {
+    "id": "145",
+    "code": "IS",
+    "display": "Inserted",
+    "definition": "Inserted",
+    "designation": [ {
+      "language": "de",
+      "value": "Implantat"
+    } ]
+  }, {
+    "id": "146",
+    "code": "IT",
+    "display": "Intrathecal",
+    "definition": "Intrathecal",
+    "designation": [ {
+      "language": "de",
+      "value": "intrathekal"
+    } ]
+  }, {
+    "id": "147",
+    "code": "IV",
+    "display": "Intravenous",
+    "definition": "Intravenous",
+    "designation": [ {
+      "language": "de",
+      "value": "intravenös"
+    } ]
+  }, {
+    "id": "148",
+    "code": "NB",
+    "display": "Nebulized",
+    "definition": "Nebulized",
+    "designation": [ {
+      "language": "de",
+      "value": "vernebelt"
+    } ]
+  }, {
+    "id": "149",
+    "code": "NG",
+    "display": "Nathogasic",
+    "definition": "Nathogasic",
+    "designation": [ {
+      "language": "de",
+      "value": "nasogastral"
+    } ]
+  }, {
+    "id": "150",
+    "code": "PA",
+    "display": "Peri-anally",
+    "definition": "Peri-anally",
+    "designation": [ {
+      "language": "de",
+      "value": "peranal"
+    } ]
+  }, {
+    "id": "152",
+    "code": "PT",
+    "display": "Paint",
+    "definition": "Paint",
+    "designation": [ {
+      "language": "de",
+      "value": "aufpinseln"
+    } ]
+  }, {
+    "id": "153",
+    "code": "PU",
+    "display": "IV push",
+    "definition": "IV push",
+    "designation": [ {
+      "language": "de",
+      "value": "intravenöser Bolus"
+    } ]
+  }, {
+    "id": "154",
+    "code": "RC",
+    "display": "Rectally",
+    "definition": "Rectally",
+    "designation": [ {
+      "language": "de",
+      "value": "rektal"
+    } ]
+  }, {
+    "id": "156",
+    "code": "SH",
+    "display": "Shampoo",
+    "definition": "Shampoo",
+    "designation": [ {
+      "language": "de",
+      "value": "Shampoo"
+    } ]
+  }, {
+    "id": "157",
+    "code": "SL",
+    "display": "Sublingual",
+    "definition": "Sublingual",
+    "designation": [ {
+      "language": "de",
+      "value": "subligual"
+    } ]
+  }, {
+    "id": "158",
+    "code": "SO",
+    "display": "Soak",
+    "definition": "Soak",
+    "designation": [ {
+      "language": "de",
+      "value": "drchtränken"
+    } ]
+  }, {
+    "id": "159",
+    "code": "SS",
+    "display": "IV soluset",
+    "definition": "IV soluset",
+    "designation": [ {
+      "language": "de",
+      "value": "Iv-Lösung"
+    } ]
+  }, {
+    "id": "160",
+    "code": "TP",
+    "display": "Topically",
+    "definition": "Topically",
+    "designation": [ {
+      "language": "de",
+      "value": "topisch"
+    } ]
+  }, {
+    "id": "162",
+    "code": "WA",
+    "display": "Wash",
+    "definition": "Wash",
+    "designation": [ {
+      "language": "de",
+      "value": "waschen"
+    } ]
+  }, {
+    "id": "163",
+    "code": "WI",
+    "display": "Wipe",
+    "definition": "Wipe",
+    "designation": [ {
+      "language": "de",
+      "value": "wischen"
+    } ]
+  } ]
+}

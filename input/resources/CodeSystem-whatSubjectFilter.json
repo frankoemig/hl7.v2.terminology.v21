@@ -1,0 +1,209 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "whatSubjectFilter",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-whatSubjectFilter.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/whatSubjectFilter</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0048"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/whatSubjectFilter",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.20"
+  } ],
+  "version": "1.0.0",
+  "name": "WhatSubjectFilter",
+  "title": "What Subject Filter (2.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify the kind of information that is required to satisfy a query request.  The values define the type of transaction inquiry.  Used in HL7 Version 2 messaging in the URD segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "201",
+    "code": "ADV",
+    "display": "Advice/Diagnosis",
+    "definition": "Advice/Diagnosis",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfehlung/Diagnose"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "544",
+    "code": "ANU",
+    "display": "Nursing Unit Look up",
+    "definition": "Nursing Unit Look up",
+    "designation": [ {
+      "language": "de",
+      "value": "Stationsinformation"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "546",
+    "code": "APN",
+    "display": "Patient name look up",
+    "definition": "Patient name look up",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientennamen Information"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "203",
+    "code": "CAN",
+    "display": "Cancel. Used to cancel a query",
+    "definition": "Cancel. Used to cancel a query",
+    "designation": [ {
+      "language": "de",
+      "value": "Abfrage löschen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "199",
+    "code": "DEM",
+    "display": "Demographics",
+    "definition": "Demographics",
+    "designation": [ {
+      "language": "de",
+      "value": "demographische Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "547",
+    "code": "MRI",
+    "display": "Most recent inpatient",
+    "definition": "Most recent inpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "aktuellster stat. Pat."
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "548",
+    "code": "MRO",
+    "display": "Most recent outpatient",
+    "definition": "Most recent outpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "aktuellster amb. Pat."
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "202",
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "anderes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "195",
+    "code": "PRO",
+    "display": "Procedure",
+    "definition": "Procedure",
+    "designation": [ {
+      "language": "de",
+      "value": "Maßnahme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "197",
+    "code": "RES",
+    "display": "Result",
+    "definition": "Result",
+    "designation": [ {
+      "language": "de",
+      "value": "Befund/Ergebnis"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "id": "198",
+    "code": "STA",
+    "display": "Status",
+    "definition": "Status",
+    "designation": [ {
+      "language": "de",
+      "value": "Status"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}
