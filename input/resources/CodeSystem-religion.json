@@ -19,6 +19,9 @@
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.18.7"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0006"
   } ],
   "version": "1.0.0",
   "name": "Religion",
@@ -64,7 +67,7 @@
   }, {
     "extension": [ {
       "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
-      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSreligion"
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSreligion"
     } ],
     "code": "parent",
     "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#parent",
